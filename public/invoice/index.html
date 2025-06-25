@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+      <!-- header -->
+      <div class="header p-1">
+        <img class="logo" src="photo/logo.png">
+      </div>
+      <!-- content -->
+        <h3 class="text-center mt-1 mb-3">Tax Invoice — فاتورة ضريبية</h3>
+        <div class="row">
+            <div class="col-8">
+                <div class="scroll">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td>Invoice Number</td>
+                        <td class="text-center">UFC-FINV-000001</td>
+                        <td class="text-end">رقم الفاتورة</td>
+                      </tr>
+                      <tr>
+                        <td>Invoice Date:</td>
+                        <td class="text-center">01/01/2022</td>
+                        <td class="text-end">تاريخ إصدار الفاتورة</td>
+                      </tr>
+                      <tr>
+                        <td>Due Date:</td>
+                        <td class="text-center">01/12/2022</td>
+                        <td class="text-end">تاريخ الاستحقاق</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="d-flex justify-content-end mb-1">
+                  <img class="qrcode" src="photo/qrcode.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 col-6" style="padding-left: 0; padding-right:0;">
+                <div class="scroll">
+                  <table class="table">
+                    <tbody>
+                      <tr class="blue-color">
+                        <td class="border-blue">Customer:</td>
+                        <td class="border-blue"></td>
+                        <td class="text-end border-blue">العميل</td>
+                      </tr>
+                      <tr>
+                        <td>Name:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">اسم </td>
+                      </tr>
+                      <tr>
+                        <td>Building No:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">رقم المبنى</td>
+                      </tr>
+                      <tr>
+                        <td>Street Name:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">اسم الشارع</td>
+                      </tr>
+                      <tr>
+                        <td>District:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">الحى</td>
+                      </tr>
+                      <tr>
+                        <td>City:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">المدينة</td>
+                      </tr>
+                      <tr>
+                        <td>Country:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">البلد</td>
+                      </tr>
+                      <tr>
+                        <td>postal code:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">الرمز البريدى</td>
+                      </tr>
+                      <tr>
+                        <td>Additional No:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">الرقم الاضافى للعنوان</td>
+                      </tr>
+                      <tr>
+                        <td>VAT Number:</td>
+                        <td class="text-center">1111111111111111111</td>
+                        <td class="text-end">رقم تسجيل ضريبة القيمة المضافة</td>
+                      </tr>
+                      <tr>
+                        <td>Other Seller ID:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">معرف أخر</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+            <div class="col-lg-6 col-6">
+                <div class="scroll">
+                  <table class="table">
+                    <tbody>
+                      <tr class="blue-color">
+                        <td class="border-blue">Seller:</td>
+                        <td class="border-blue"></td>
+                        <td class="text-end border-blue">المورد</td>
+                      </tr>
+                      <tr>
+                        <td>Name:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">اسم </td>
+                      </tr>
+                      <tr>
+                        <td>Building No:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">رقم المبنى</td>
+                      </tr>
+                      <tr>
+                        <td>Street Name:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">اسم الشارع</td>
+                      </tr>
+                      <tr>
+                        <td>District:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">الحى</td>
+                      </tr>
+                      <tr>
+                        <td>City:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">المدينة</td>
+                      </tr>
+                      <tr>
+                        <td>Country:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">البلد</td>
+                      </tr>
+                      <tr>
+                        <td>postal code:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">الرمز البريدى</td>
+                      </tr>
+                      <tr>
+                        <td>Additional No:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">الرقم الاضافى للعنوان</td>
+                      </tr>
+                      <tr>
+                        <td>VAT Number:</td>
+                        <td class="text-center">1111111111111111111</td>
+                        <td class="text-end">رقم تسجيل ضريبة القيمة المضافة</td>
+                      </tr>
+                      <tr>
+                        <td>Other Seller ID:</td>
+                        <td class="text-center"></td>
+                        <td class="text-end">معرف أخر</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="scroll">
+              <table class="table">
+                <thead>
+                  <tr class="blue-color">
+                    <th scope="col" class="border-color text-center">#</th>
+                    <th scope="col" class="border-color text-center">وصف الصنف Item Description </th>
+                    <th scope="col" class="border-color text-center">الكمية Qty </th>
+                    <th scope="col" class="border-color text-center">سعر الوحدة Unit Price</th>
+                    <th scope="col" class="border-color text-center">المبلغ الخاضع للضريبة Taxable Amount</th>
+                    <th scope="col" class="border-color text-center">الخصم Discount</th>
+                    <th scope="col" class="border-color text-center">نسبة الضريبة Tax Rate</th>
+                    <th scope="col" class="border-color text-center">مبلغ الضريبة Tax Amount</th>
+                    <th scope="col" class="border-color text-center">المجموع شامل الضر يبة Total Amount With VAT </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Dynamics 365</td>
+                    <td>1.00</td>
+                    <td>1,305.5</td>
+                    <td>1,305.5</td>
+                    <td>0.00</td>
+                    <td>VAT 15%</td>
+                    <td>195.825</td>
+                    <td>1,501.4</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Office 365</td>
+                    <td>2.00</td>
+                    <td>2,320.00</td>
+                    <td>2,320.00</td>
+                    <td>0.00</td>
+                    <td>VAT 15%</td>
+                    <td>348</td>
+                    <td>2,668</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Dynamics 365</td>
+                    <td>1.00</td>
+                    <td>1,305.5</td>
+                    <td>1,305.5</td>
+                    <td>0.00</td>
+                    <td>VAT 15%</td>
+                    <td>195.825</td>
+                    <td>1,501.4</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Office 365</td>
+                    <td>2.00</td>
+                    <td>2,320.00</td>
+                    <td>2,320.00</td>
+                    <td>0.00</td>
+                    <td>VAT 15%</td>
+                    <td>348</td>
+                    <td>2,668</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+    
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>Total (Excluding VAT) - الاجمالى غير شامل ضريبة القيمةالمضافة</td>
+                      <td class="text-center">5.625,3</td>
+                    </tr>
+                    <tr>
+                      <td>Discount — اجمالى الخصومات</td>
+                      <td class="text-center">0.00</td>
+                    </tr>
+                    <tr>
+                      <td>Total Taxable Amount — اجمالى المبلغ الخاضع للضريبة</td>
+                      <td class="text-center">0.00</td>
+                    </tr>
+                    <tr>
+                      <td>Total VAT - اجمالى ضريبة القيمة المضافة</td>
+                      <td class="text-center">5.543</td>
+                    </tr>
+                    <tr class="blue-color">
+                      <td class="border-color">Total Due Amount - اجمالى المبلغ المستحق</td>
+                      <td class="text-center border-color">4,169.4</td>
+                    </tr>
+                  </tbody>
+                </table>
+          </div>
+        </div>
+
+          <!-- footer -->
+          <div class="text-center fw-normal footer pt-5 pb-5">
+            <button onclick="myfunction()">print</button>
+          </div>
+    </div>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script>
+<script>
+  function myfunction(){
+    window.print();
+  }
+</script>
+</body>
+</html>

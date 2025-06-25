@@ -1,0 +1,43 @@
+body{
+    font-weight: bold;
+    font-size: 15px;
+}
+.qrcode{
+    height: 180px;
+}
+.logo{
+    width: 200px;
+    height: 60px;
+}
+table, td, th{
+    border: 1px solid black !important;
+}
+.scroll{
+    overflow-y: auto;
+    /* margin-bottom: 10px; */
+}
+.blue-color{
+    background-color: #3366ff;
+    color: white;
+}
+.border-color{
+    border: 1px solid white !important;
+}
+.border-blue{
+    border: 1px solid #3366ff !important;
+}
+@media print {
+    body{
+        font-size: 8px;
+    }
+    h3{
+        font-size: 10px;
+    }
+    .col-lg-6, .col-12{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .qrcode{
+        height: 120px;
+    }
+ }
