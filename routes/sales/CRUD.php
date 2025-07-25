@@ -73,3 +73,7 @@ use Illuminate\Support\Facades\Route;
 
 //    ############################ print  /////////////////////////////////
 //        Route::get('reservations')
+
+// new Query feature
+Route::get('/query', 'QueryController@index')->name('sales.query');
+Route::post('/query', 'QueryController@search')->name('sales.query.search');
