@@ -1,6 +1,8 @@
-Feature Documentation: Visitor Query by Time
+🚀 Feature Documentation: Visitor Query by Time
 1. Feature Overview
-This document outlines the functionality of the Visitor Query feature added to the Sales Dashboard. The primary purpose of this tool is to provide cashiers and managers with a real-time snapshot of park attendance, allowing them to see how many visitors are expected to be present at any specific date and time.
+This document outlines the functionality of the Visitor Query feature added to the Sales Dashboard.
+
+The primary purpose of this tool is to provide cashiers and managers with a real-time snapshot of park attendance, allowing them to see how many visitors are expected to be present at any specific date and time.
 
 2. How It Works
 The feature is designed to be simple and intuitive:
